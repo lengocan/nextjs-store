@@ -1,8 +1,9 @@
 
 function AboutPage() {
+
   return (
     <div>
-      About Page
+      AboutPage
     </div>
   )
 }

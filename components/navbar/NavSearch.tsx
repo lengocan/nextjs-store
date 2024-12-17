@@ -4,9 +4,11 @@ import React from 'react'
 
 function NavSearch() {
   return (
-    <Input type="search" placeholder='search product ...' className={cn('w-50')} />
-      
+    <Input type="search" placeholder='search product ...' className='max-w-xs dark:bg-muted' />
+
   )
 }
 
 export default NavSearch
+
+// {cn('w-50')}
